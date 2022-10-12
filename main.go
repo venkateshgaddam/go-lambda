@@ -23,6 +23,6 @@ func Handler(event MyEvent) (MyResponse, error) {
 
 func main() {
 
-	fmt.Println("This is working in Serverless!!!")
+	fmt.Println("Lambda Function is working!!!")
 	lambda.Start(Handler)
 }
